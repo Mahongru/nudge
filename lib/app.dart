@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       valueListenable: themeNotifier,
       builder: ((context, value, child) => MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Nudge Me!',
+            title: 'Nudge easy!',
             theme: themeNotifier.value ? ThemeData.dark() : ThemeData.light(),
             home: Scaffold(
               appBar: AppBar(
